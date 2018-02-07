@@ -1,0 +1,15 @@
+
+{
+  "presets": [
+    [
+      "env",
+      {
+        "forceAllTransforms": true,
+        "loose": true
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-runtime"
+  ]
+}

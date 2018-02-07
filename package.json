@@ -1,0 +1,44 @@
+{
+  "name": "apollo-link-nes",
+  "version": "0.0.0",
+  "description": "Apollo Link support for nes",
+  "main": "dist/index.js",
+  "browser": "dist/index.js",
+  "scripts": {
+    "build": "babel lib/index.js --out-file dist/index.js",
+    "lint": "belly-button -i lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geek/apollo-link-nes.git"
+  },
+  "keywords": [
+    "apollo",
+    "ws",
+    "nes",
+    "hapi"
+  ],
+  "author": "wyatt",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/geek/apollo-link-nes/issues"
+  },
+  "homepage": "https://github.com/geek/apollo-link-nes#readme",
+  "dependencies": {
+    "apollo-link": "^1.0.7",
+    "graphql": "^0.12.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.3.0",
+    "belly-button": "^4.1.1"
+  },
+  "babel": {
+    "presets": [
+      "es2017"
+    ]
+  }
+}
